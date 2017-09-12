@@ -27,7 +27,7 @@ I feel like I'm slowly catching on, but I think one of the most daunting things 
 - Understanding the class work flow
 ---
 I think at the end of week one I can honestly say I learned a lot. More than I had anticipated for sure.I'm excited to dive back in and learn more.
-### Learning Goals
+### My Learning Goals
 1. Understand and be comfortable with designing/maintiaining my own website.
 2. How to integrate this skill into my career.
 3. Gain understanding of how this tool I rely on everyday works.
