@@ -4,7 +4,7 @@
 So I have to admit. Week one is over and I've already learned a **ton**. But I still feel really overwhelmed. Most of these concepts I've heard, of but that was about the extent of my knowledge on them. I'm hoping things will get a little smoother as we go on, but the initial learning curve was a bit steeper than I expected.
 
 ---
-So, I'll fully admit, I procrastinated *really bad*. I was thinking, 'Oh it's jus the first week of school, I'll be fine.' I really underestimated how much we would try to tackle right away.
+I'll fully admit, I procrastinated *really bad*. I was thinking, 'Oh it's jus the first week of school, I'll be fine.' I really underestimated how much we would try to tackle right away.
 
 As I saw a few others mention I too didn't initially realize there were two modules due this week. I just thought there would be the one so I would be able to do it pretty simply. *I was wrong*. I know I'm not the only one in this situation, but I procrastinate religiously. So with that in mind I think that I've learned my lesson. **Don't try to do in one night what they give you a week to do.**
 
