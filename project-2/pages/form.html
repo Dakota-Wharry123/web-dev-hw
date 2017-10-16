@@ -1,5 +1,9 @@
 <!Doctype html>
 <html>
+<meta charset="utf-8">
+    <meta name="description" content="Share Your Story">
+    <meta name="author" content="Dakota Wharry"><meta charset="utf-8">
+
 <head>
   <title>Share Your Story</title>
   <style>
@@ -13,3 +17,42 @@
       Did it make as much or more than you expected? Would you make it again? Did you add any variations to make this simple recipe your own?
       Do you have any tips for those who have yet to try it? Most importantly did you enjoy it? Let us know! <br>
       I look forward to seeing your responses! I hope you enjoyed a taste of Lachina family history.
+<form action="http://www.example.com/subscribe.php">
+<fieldset>
+  <legend>Basic Information</legend>
+  <p> Name:
+  <input type="text" name= User Name. size="15" maxlength="30"</p>
+  <p>Age:
+    <select name="Age Range" id="Age">
+      <option value="Under18">Under 18</option>
+      <option value="18-30">18-30</option>
+      <option value="30andUp">30 or Above</option>
+</fieldset>
+<fieldset>
+  <legend>Share Your Experience</legend>
+    <p>Would you try the recipe again?</p>
+    <label>
+      <input type="radio" name="again?" value="Yes" />
+      Yes
+    </label>
+    <label>
+      <input type="radio" name="again?" value="No" />
+      No
+    </label>
+    <label for="Story">
+    <p>Your Story:</p>
+    <textarea rows="6" cols="40" id="story" placeholder="Share your experience">
+    </textarea>
+    <label>
+      <input type="checkbox" name="recommend" checked="unchecked" />
+      <p>I am likely to recommend this to a friend </p>
+    </label>
+
+
+</fieldset>
+<input type="submit" value="Submit Response" />
+<hr />
+      <ul>
+        <li><a href="./instructions.html">Back to Recipe</a></li>
+        <li><a href="../index.html">Back to Home</a></li>
+      </ul>
