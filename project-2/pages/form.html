@@ -11,22 +11,25 @@
   </style>
 </head>
 <body>
-  <H1> Share Your Story </h1> <hr />
+  <h1> Share Your Story </h1> <hr />
     <p>Now that you've tried the recipe for yourself, share your story with me and the
       rest of those who are interested in giving it a shot! Was it pretty easy or did you have any troubles?
       Did it make as much or more than you expected? Would you make it again? Did you add any variations to make this simple recipe your own?
       Do you have any tips for those who have yet to try it? Most importantly did you enjoy it? Let us know! <br>
-      I look forward to seeing your responses! I hope you enjoyed a taste of Lachina family history.
-<form action="http://www.example.com/subscribe.php">
+      I look forward to seeing your responses! I hope you enjoyed a taste of Lachina family history.</p>
+<form action="http://www.example.com/subscribe.php" method="post">
 <fieldset>
   <legend>Basic Information</legend>
   <p> Name:
-  <input type="text" name= User Name. size="15" maxlength="30"</p>
+  <input type="text" name="UserName" size="15" maxlength="30">
+</p>
   <p>Age:
     <select name="Age Range" id="Age">
       <option value="Under18">Under 18</option>
       <option value="18-30">18-30</option>
-      <option value="30andUp">30 or Above</option> </p>
+      <option value="30andUp">30 or Above</option>
+    </select>
+    </p>
 </fieldset>
 <fieldset>
   <legend>Share Your Experience</legend>
@@ -41,20 +44,22 @@
     </label>
     <label for="Story">
     <p>Your Story:</p>
-    <textarea rows="6" cols="40" id="story" placeholder="Share your experience">
-    </textarea>
+    <textarea rows="6" cols="40" id="story" placeholder="Share your experience">  </textarea>
+    </label>
     <label>
-      <input type="checkbox" name="recommend" checked="unchecked" />
-      <p>I am likely to recommend this to a friend </p>
+      <p><input type="checkbox" name="recommend" checked="unchecked" />
+      I am likely to recommend this to a friend </p>
     </label>
 
 
 </fieldset>
+
 <input type="submit" value="Submit Response" />
+</form>
 <hr />
       <ul>
-        <li><a href="./pages/instructions.html">Back to Recipe</a></li>
-        <li><a href="./index.html">Back to Home</a></li>
+        <li><a href="./instructions.html">Back to Recipe</a></li>
+        <li><a href="../index.html">Back to Home</a></li>
       </ul>
-
+</body>
     </html>
