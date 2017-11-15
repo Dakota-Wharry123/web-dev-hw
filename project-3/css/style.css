@@ -1,0 +1,110 @@
+/*Style of the body*/
+body {
+  background-image: image(./images/wildfire.jpg);
+  font-family: 'Lato', sans-serif;
+
+
+
+}
+/*Style of h1*/
+h1 {
+  font-family: 'Merriweather', sans-serif;
+  line-height: normal;
+  font-weight: normal;
+  margin-bottom: 1em;
+  text-align: center;
+  color:#008e49 ;
+  letter-spacing: normal;
+
+}
+/*Style of h2*/
+h2 {
+  font-family: 'Merriweather', sans-serif;
+  line-height: normal;
+  font-weight: normal;
+  margin-bottom: 1em;
+  text-align: center;
+  color:#008e49 ;
+  letter-spacing: normal;
+
+}
+/*Style of main*/
+main {
+  font-family: 'Merriweather', sans-serif;
+  line-height: normal;
+  font-weight: normal;
+  margin-bottom: 1em;
+  text-align: center;
+  color:#008e49 ;
+  letter-spacing: normal;
+  border-radius: 15px;
+  border-style: ridge;
+  border-color: #003e19 ;
+  border-width: medium;
+  color-text: #ff0000;
+
+
+}
+
+
+
+
+/*Style of center*/
+center{
+  background-color: #003e19;
+  border-radius: 15px;
+  border-style: ridge;
+  border-width: medium;
+
+
+}
+
+/*Footer*/
+footer {
+  background-color: #008e49 ;
+  border-radius: 15px;
+  border-style: ridge;
+  border-color: #003e19 ;
+  border-width: medium;
+
+}
+
+/*elements*/
+.element-1 {
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+/*elements1*/
+.element-1 a {
+  color: #b12500;
+  text-decoration: underline;
+}
+/*elements2*/
+.element-1 a:hover {
+  color: #4e3bfc;
+  font-style: italic;
+}
+/*menu Item*/
+.menu-item {
+  margin: auto;
+  padding: 0.5em;
+  min-width: 100px;
+  color: #008e49;
+  background-color: #008e49;
+}
+
+.menu-item:hover {
+  background-color: #008e49;
+  color: #b12500;
+}
+/*parent container*/
+.parent-container {
+  width: 70%;
+  background-color: #003319;
+}
+
+.parent-container h2 {
+  font-size: large;
+  font-weight: 600;
+  font-style: normal;
+}
