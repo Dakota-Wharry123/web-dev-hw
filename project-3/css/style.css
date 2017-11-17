@@ -1,10 +1,7 @@
 /*Style of the body*/
 body {
-  background-image: image(./images/wildfire.jpg);
+
   font-family: 'Lato', sans-serif;
-
-
-
 }
 /*Style of h1*/
 h1 {
@@ -13,7 +10,7 @@ h1 {
   font-weight: normal;
   margin-bottom: 1em;
   text-align: center;
-  color:#008e49 ;
+  color:#CE1515 ;
   letter-spacing: normal;
 
 }
@@ -24,7 +21,7 @@ h2 {
   font-weight: normal;
   margin-bottom: 1em;
   text-align: center;
-  color:#008e49 ;
+  color:#CE1515 ;
   letter-spacing: normal;
 
 }
@@ -35,11 +32,11 @@ main {
   font-weight: normal;
   margin-bottom: 1em;
   text-align: center;
-  color:#008e49 ;
+  color:#FFFFFF ;
   letter-spacing: normal;
   border-radius: 15px;
   border-style: ridge;
-  border-color: #003e19 ;
+  border-color: #462E07 ;
   border-width: medium;
   color-text: #ff0000;
 
@@ -51,7 +48,7 @@ main {
 
 /*Style of center*/
 center{
-  background-color: #003e19;
+  background-color: #A97A2E;
   border-radius: 15px;
   border-style: ridge;
   border-width: medium;
@@ -61,10 +58,10 @@ center{
 
 /*Footer*/
 footer {
-  background-color: #008e49 ;
+  background-color: #A97A2E ;
   border-radius: 15px;
   border-style: ridge;
-  border-color: #003e19 ;
+  border-color: #CE1515 ;
   border-width: medium;
 
 }
@@ -81,7 +78,7 @@ footer {
 }
 /*elements2*/
 .element-1 a:hover {
-  color: #4e3bfc;
+  color: #b12500;
   font-style: italic;
 }
 /*menu Item*/
@@ -90,7 +87,7 @@ footer {
   padding: 0.5em;
   min-width: 100px;
   color: #008e49;
-  background-color: #008e49;
+  background-color: #CE1515;
 }
 
 .menu-item:hover {
@@ -99,7 +96,7 @@ footer {
 }
 /*parent container*/
 .parent-container {
-  width: 70%;
+  width: 100%;
   background-color: #003319;
 }
 
