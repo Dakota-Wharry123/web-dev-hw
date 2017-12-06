@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Meta Data and linking the css-->
+    <meta charset="utf-8">
+    <meta name="description" content="Responsive Web Design">
+    <meta name="author" content="Dakota Wharry">
+    <meta name="viewport" content="width=device-width, initial-scale- 1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Responsive Web Design</title>
+    </head>
+    <body>
+        <!--I decided to stick with instructor recomendation and go with column drop because it seemed both easy and versatile.-->
+        <div class="container">
+            <!-- Content wise I decided to just use my own words to talk about RWD -->
+            <div class="box1">
+            <h1 class="Head"><strong> What is Responsive Web Design (RWD)? </strong></h1>
+            <p class="Para">RWD is a <em>truly</em> modern design principle. As defined by Wikipedia, <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">
+              Responsive web design</a> is an approach to web design which makes web pages render well on a variety of devices and window or screen sizes.
+              So essentially it allows websites to scale and adjust as the browser size increases.</p></div>
+
+            <div class="box2">
+            <h2 class="Head">Flex Boxes</h2>
+            <p class="Para">One <strong>easy</strong> way to create a responsive website. Flex boxes are containers, whether shown as actual boxes are not,
+               that contain the websites content and break it up into chunks. As the browser size goes up and down the boxes are rearanged to fit on the page.
+              By default it will try to fit them all across horizontally, but you can specify the size, order and layout of the boxes to acheive a desired effect.  </p> </div>
+
+            <div class="box3">
+              <h2 class="Head">Process </h2>
+            <p class="Para">By setting your boxes up in a container with flex wrap set up in your css the browser will do most of the work for you.
+            From there you just have to set pixel widths or percentages so the browser knows how wide each box should be. For example the middle three boxes will all fit into one column by setting each box to take up 33% of the width.
+          By setting the other two to 100% I can ensure that they are allocated an entire row. But this layout isn't fully realized unless you have a large enough browser window. As the window gets narrower the boxes will shift
+          down to the next row to ensure that everything fits well on smaller screens or browsers. </p></div>
+
+            <div class="box4">
+            <p class = "Para"> </p><strong>"Designing a responsive webpage can be tedious, but the end result will ensure that your webpage looks good no matter what platform it's viewed on."</strong>
+            <br><em>-Dakota Wharry</em></div>
+
+           <div class="box5">
+             <h2 class="Head"><strong>Column Drop</strong></h2>
+            <p class="Para" >This website provides a simple example of RWD, it utilizes a style known as <em>column drop</em>.
+              In this style of RWD the flex boxes will rearange as the browser gets wider. At its most narrow point the boxes will
+               all sit on top of eachother and go down vertically. As the browser gets wider the boxes will begin to form rows.
+               You can also assign widths to the boxes to achieve a desired layout. </p></div>
+
+        </div>
+    </body>
+</html>

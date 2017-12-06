@@ -1,0 +1,42 @@
+body {
+  background: PowderBlue ;
+  font-family: verdana, sans-serif;
+  h1 , h2: font-family: times, serif;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;}
+
+
+.box {
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+  padding: 3px ;
+  margin: 1%, 1% ;}
+
+.box1 {
+  background: DarkRed ;
+
+}
+
+.box2 {
+  background: DarkGreen ;
+}
+.box3 {
+  background: Gold;
+}
+.box4 {
+  background: DarkGreen;
+}
+.box5{
+  background: DarkRed;
+}
+
+@media (min-width: 770px) {
+
+
+}
