@@ -10,6 +10,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;}
 
+.a:link {color: white;}
+.a:visited {color:red:}
 
 .box1 , .box2 , .box3, .box4, .box5 {
   width: 100%;
