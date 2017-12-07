@@ -5,10 +5,10 @@ body {
   text-align: center;
 }
 
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .a:link {color: white;}
 .a:visited {color:red:}
@@ -40,7 +40,8 @@ body {
 }
 
 @media (min-width: 800px) {
-  .box3{width: 70%}
-  .box4{width: 30%}
+  
+  .box3{width: 69%}
+  .box4{width: 29%}
 
 }
