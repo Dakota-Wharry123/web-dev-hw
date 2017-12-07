@@ -1,15 +1,15 @@
-body {
-  background: PowderBlue ;
+.body {
+  background-color: PowderBlue ;
   font-family: verdana, sans-serif;
   h1 , h2: font-family: times, serif;
   text-align: center;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex ;
+    flex-wrap: wrap ;
 }
-
+.box {display:flex ;flex-wrap: wrap ;}
 .a:link {color: white;}
 .a:visited {color:red:}
 
@@ -39,9 +39,9 @@ body {
   background-color: DarkGreen;
 }
 
-@media (min-width: 800px) {
-  
-  .box3{width: 69%}
-  .box4{width: 29%}
+@media (min-width: 700px) {
+
+  .box3{width: 70%}
+  .box4{width: 30%}
 
 }
