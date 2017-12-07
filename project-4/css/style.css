@@ -11,7 +11,7 @@ body {
   justify-content: center;}
 
 
-.box {
+.box1 , .box2 , .box3, .box4, .box5 {
   width: 100%;
   text-align: center;
   overflow: auto;
@@ -19,21 +19,22 @@ body {
   margin: 5px 5px ;}
 
 .box1 {
-  background: DarkGreen ;
+  background-color:  DarkGreen ;
 
 }
 
 .box2 {
-  background: DarkRed ;
+  background-color:  DarkRed ;
 }
 .box3 {
-  background: Gold;
+  background-color: Gold;
 }
 .box4 {
-  background: DarkRed;
+  background-color: DarkRed;
+  width: 100%
 }
 .box5{
-  background: DarkGreen;
+  background-color: DarkGreen;
 }
 
 @media (min-width: 770px) {
