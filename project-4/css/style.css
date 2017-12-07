@@ -40,14 +40,14 @@
 
 @media (min-width: 700px) {
 
-  .box3{width: 70%}
-  .box4{width: 30%}
+  .box3{width: 66%}
+  .box4{width: 28%}
 
 }
 
 @media (min-width: 1000px) {
-  .box2 {width: 30%}
-  .box3 {width: 50%}
-  .box4 {width: 19%}
+  .box2 {width: 28%}
+  .box3 {width: 48%}
+  .box4 {width: 16%}
 
 }
