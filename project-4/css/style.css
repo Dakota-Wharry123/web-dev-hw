@@ -19,21 +19,21 @@ body {
   margin: 2%, 2% ;}
 
 .box1 {
-  background: DarkRed ;
+  background: DarkGreen ;
 
 }
 
 .box2 {
-  background: DarkGreen ;
+  background: DarkRed ;
 }
 .box3 {
   background: Gold;
 }
 .box4 {
-  background: DarkGreen;
+  background: DarkRed;
 }
 .box5{
-  background: DarkRed;
+  background: DarkGreen;
 }
 
 @media (min-width: 770px) {
